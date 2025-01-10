@@ -269,12 +269,20 @@ nav button:hover{
     font-weight: bold;
     font-size: 40px;
 }
+.donate-taka:hover{
+    background-color: black;
+    color: white;
+}
 .donate-taka-color{
     padding: 40px;
     background-color: #C6E4D6;
     border-radius: 16px;
     font-weight: bold;
     font-size: 40px;
+}
+.donate-taka-color:hover{
+    color: black;
+    background-color: white;
 }
 .input{
     padding: 20px 400px;
@@ -351,10 +359,11 @@ footer h1{
     font-weight: bold;
     font-size: 32px;
     margin-top: 50px;
-    margin-bottom: 64px;
 }
 footer div{
     display: flex;
     gap: 23px;
-    margin-bottom: 50px;
+}
+footer hr{
+    width: 1122px;
 }
