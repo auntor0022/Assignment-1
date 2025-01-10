@@ -335,3 +335,26 @@ nav button:hover{
 .btn-2:hover{
     background-color: #09A15C;
 }
+
+
+/* Footer */
+footer{
+    width: 1600px;
+    height: 226px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+footer div{
+    display: flex;
+    gap: 23px;
+    margin-bottom: 50px;
+}
