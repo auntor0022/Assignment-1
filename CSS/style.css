@@ -28,13 +28,11 @@ body{
     border: 2px solid #006A50;
 }
 .section-title{
-    font-family: "Fira Sans", serif;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 24px;
 }
 .section-description{
-    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -91,6 +89,45 @@ nav button:hover{
     font-size: 56px;
     margin-bottom: 24px;
 }
+
+
+/* First Section */
+.first-section{
+    margin: 80px auto;
+    height: 324px;
+    width: 1280px;
+}
+.fifth-section-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.first-section-boxs{
+    display: flex;
+    gap: 24px;
+}
+.first-section-box{
+    width: 302px;
+    background-color: white;
+    border: 1px solid #0E0E0E;
+    border-radius: 16px;
+    padding: 24px;
+}
+.first-section-img{
+    margin-bottom: 24px;
+}
+.first-section-subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+.first-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
 
 
 /* Second Section */
