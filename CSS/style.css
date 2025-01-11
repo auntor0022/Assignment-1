@@ -109,7 +109,7 @@ nav button:hover{
 .first-section-box{
     width: 302px;
     background-color: white;
-    border: 1px solid #0E0E0E;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     padding: 24px;
 }
@@ -135,7 +135,6 @@ nav button:hover{
     margin: 80px auto;
     width: 1280px;
     height: 765px;
-    /* background-color: aquamarine; */
 }
 .mini-containers{
     display: flex;
@@ -222,7 +221,7 @@ nav button:hover{
     background-color: white;
     padding: 48px 24px;
     border-radius: 16px;
-    border: 1px solid #0E0E0E;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 24px 30px;
@@ -231,6 +230,16 @@ nav button:hover{
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 4px;
+}
+
+
+/* Optional Section */
+.optional-section{
+    background-color: #C6E4D6;
+    width: 1280px;
+    height: 481px;
+    margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 
@@ -306,10 +315,6 @@ nav button:hover{
     font-weight: bold;
     font-size: 40px;
 }
-.donate-taka:hover{
-    background-color: black;
-    color: white;
-}
 .donate-taka-color{
     padding: 40px;
     background-color: #C6E4D6;
@@ -317,9 +322,9 @@ nav button:hover{
     font-weight: bold;
     font-size: 40px;
 }
-.donate-taka-color:hover{
-    color: black;
-    background-color: white;
+.donate-taka:hover , .donate-taka-color:hover{
+    background-color: black;
+    color: white;
 }
 .input{
     padding: 20px 400px;
@@ -365,6 +370,10 @@ nav button:hover{
     padding: 18px 0;
     padding-left: 40px;
     border-radius: 8px 0 0 8px;
+    font-size: 16px;
+}
+.input-2:focus{
+    outline: none;
 }
 .btn-2{
     width: 150px;
@@ -386,6 +395,7 @@ nav button:hover{
 footer{
     width: 1600px;
     height: 226px;
+    margin: 0 auto;
     background-color: white;
     display: flex;
     flex-direction: column;
